@@ -3,11 +3,14 @@
 @tailwind utilities;
 
 @layer components {
-    .all-\[unset\] {
-      all: unset;
-    }
+  .all-\[unset\] {
+    all: unset;
   }
+}
 
-*{
-    font-family: "Poppins",;
+* {
+  font-family: "Poppins";
+  color: #373737;
+  margin: 0;
+  padding: 0;
 }
