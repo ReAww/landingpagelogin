@@ -2,9 +2,9 @@ import React from "react";
 
 export const LoginboxComponent = () => {
   return (
-    <div className="mx-10 md:mx-[150px] lg:mx-[250px] my-36 lg:my-20 shadow-xl bg-white rounded-2xl flex flex-row">
+    <div className="mx-10 md:mx-[150px] lg:mx-[250px] my-5 sm:my-36 lg:my-20 shadow-xl bg-white rounded-2xl flex flex-row">
       <div
-        className=" rounded-xl lg:rounded-l-2xl lg:w-[50%] w-[100%] h-[100%] pt-12
+        className=" rounded-xl lg:rounded-l-2xl lg:w-[50%] w-[100%] sm:h-[100px] h-[100%] pt-12
        p-4 md:p-9 text-center bg-white md:shadow-none"
       >
         <h1 className="font-bold text-neutral-700 text-5xl mb-12">Login</h1>
