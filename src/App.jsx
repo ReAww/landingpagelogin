@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="overflow-hidden h-[700px] sm:h-[100vh]">
     <div
-      className="background relative overflow-hidden z-[-999999]
+      className="background relative overflow-hidden z-[-99999]
     [background:linear-gradient(180deg,rgb(86.06,255,143.5)_50%,rgb(255,255,255)_50%)] 
     md:[background:linear-gradient(130deg,rgb(86.06,255,143.5)_50%,rgb(255,255,255)_50%)]
     w-[100vw] h-[100svh]"
