@@ -19,14 +19,14 @@ export const ElementComponent = () => {
 
       {/* CIRCLE */}
       <div
-        className="absolute w-[70px] h-[70px]
+        className="absolute w-[70px] lg:w-[100px] h-[70px] lg:h-[100px]
       top-[-2] right-[-10px] md:left-0 md:bottom-0
       bg-[rgb(172,255,200)] bg-opacity-50 rounded-full"
       />
       <div
         className="absolute w-[40px] h-[40px]
       top-[66px] right-[35px]  md:left-[40px] 
-      md:top-[530px] md:w-[60px] md:h-[60px]
+      md:top-[530px] lg:top-[570px] md:w-[60px] md:h-[60px]
       bg-[rgb(172,255,200)] bg-opacity-50 rounded-full"
       />
 
