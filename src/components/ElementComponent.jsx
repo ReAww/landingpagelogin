@@ -2,7 +2,7 @@ import React from "react";
 
 export const ElementComponent = () => {
   return (
-    <div className="absolute flex w-[100vw] h-[100svh]">
+    <div className="absolute overflow-hidden flex z-[-99] w-[100vw] h-[100vh]">
       {/* SQUARE */}
       <div
         className="absolute w-[70px] h-[70px] 
@@ -33,14 +33,21 @@ export const ElementComponent = () => {
       {/* Triangle */}
       <div
         className="absolute w-[60px] h-[50px] 
-        md:top-0 md:right-[]
+        md:top-[-15px] md:left-[67%]
       [background:linear-gradient(45deg,rgb(172,255,200)_50%,transparent_50%)] 
-      top-[190px] right-[20px] rotate-[55deg] opacity-50"
+      top-[23%] right-[-6px] rotate-[90deg] opacity-50"
       />
       <div
         className="absolute w-[80px] h-[70px]
+        md:top-8 md:left-[60%] md:rotate-[100deg]
       [background:linear-gradient(45deg,rgb(172,255,200)_50%,transparent_50%)] 
-      top-[250px] right-[-40px] rotate-[90deg] opacity-50"
+      top-[36%] right-[-40px] rotate-[90deg] opacity-50"
+      />
+      <div
+        className="absolute w-[80px] h-[70px] invisible md:visible
+        md:top-[-20px] md:left-[53%] md:rotate-[300deg]
+      [background:linear-gradient(45deg,rgb(172,255,200)_50%,transparent_50%)] 
+      top-[36%] right-[-40px] rotate-[90deg] opacity-50"
       />
     </div>
   );

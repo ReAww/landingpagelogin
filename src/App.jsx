@@ -4,21 +4,18 @@ import { LoginboxComponent } from "./components/LoginboxComponent";
 
 export default function App() {
   return (
+    <div className="overflow-hidden">
     <div
-      className="relative overflow-hidden z-[-9999]
+      className="background relative overflow-hidden z-[-999999]
     [background:linear-gradient(180deg,rgb(86.06,255,143.5)_50%,rgb(255,255,255)_50%)] 
     md:[background:linear-gradient(130deg,rgb(86.06,255,143.5)_50%,rgb(255,255,255)_50%)]
     w-[100vw] h-[100svh]"
-    >
-      <div className="absolute max-w-[100%] z-[-999]">
+    />
+      <div className="absolute top-0 w-[100vw] h-[100vh]">
         <ElementComponent />
       </div>
-      <div className="relative max-w-[80%] mx-auto bg-white rounded-md 
-      shadow-md overflow-hidden sm:max-w-[50%]">
-    <div className=" bg-white justify-center">
-      Hellow
-    </div>
-        {/* <LoginboxComponent /> */}
+      <div className="absolute overflow-hidden top-0 z-1 w-[100vw] h-[100vh]">
+        <LoginboxComponent />
       </div>
     </div>
   );
