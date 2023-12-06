@@ -47,7 +47,7 @@ export const LoginboxComponent = () => {
         </div>
         <button
           className="m-2 px-8 hover:bg-green-400 text-xl shadow-md
-          text-neutral-700 font-bold py-2 border-b-4 border-2
+          text-neutral-700 font-bold py-2 border-b-4 border-2 active:bg-green-600
           border-green-400 lg:float-right hover:border-green-500 rounded-xl"
         >
           Login
