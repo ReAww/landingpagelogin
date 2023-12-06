@@ -9,7 +9,7 @@ export default function App() {
       className="background relative overflow-hidden z-[-999999]
     [background:linear-gradient(180deg,rgb(86.06,255,143.5)_50%,rgb(255,255,255)_50%)] 
     md:[background:linear-gradient(130deg,rgb(86.06,255,143.5)_50%,rgb(255,255,255)_50%)]
-    w-[100vw] sm:h-[700px] h-[100svh]"
+    w-[100vw] sm:h-[800px] h-[100svh]"
     />
       <div className="absolute top-0 w-[100vw] h-[100vh]">
         <ElementComponent />
